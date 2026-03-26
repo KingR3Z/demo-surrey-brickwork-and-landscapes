@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "2",
 
   // Services
   services: [
@@ -79,9 +79,8 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Sappho Wong", rating: 5, text: "Ross is a very responsible person and is fast response.  He and his team did an excellent brickworks and landscaping to my garden.  He helped paving the edge and levelling the area with a nice patio in limestone. He also clean up the mess after the w", date: "7 months ago" },
+    { name: "Adrian Legassick", rating: 5, text: "Ross and Liam did a fantastic job of laying a concrete shed base. The work was completed on time: the base is perfect. The site was left clean and the price was exactly what was quoted. It was refreshing dealing with builders who do everything they s", date: "7 months ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
